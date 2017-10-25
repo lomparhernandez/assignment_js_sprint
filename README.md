@@ -1,4 +1,4 @@
 assignment_js_sprint
 ====================
 
-while(1){ go() };
+while(1){ go(); };
