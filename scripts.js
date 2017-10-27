@@ -1,11 +1,12 @@
 // FILL IN THE FUNCTIONS BELOW
 
 var sprintFunctions = {
-  largestEl: function(){  
-    // your code here
+  largestEl: function(array){  
+    function hilo (a,b) {return b-a};
+    return array.sort(hilo);
   },
   
-  reversed: function(){  
+  reversed: function(string){  
     // your code here
   },
 
