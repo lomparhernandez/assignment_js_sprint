@@ -1,13 +1,13 @@
 // FILL IN THE FUNCTIONS BELOW
 
 var sprintFunctions = {
-  largestEl: function(array){  
+    largestEl: function(array){  
     function hilo (a,b) {return b-a};
     return array.sort(hilo);
   },
   
   reversed: function(string){  
-    // your code here
+    return string.split("").reverse().join("");
   },
 
   loudSnakeCase: function(){  
